@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto Condensed";
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    background: linear-gradient(#00111b00 50%, #00111b 100% 100%), url('../img/kosmos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding-left: 2em;
+    font-size: 2vh;
+}
+
+.menu{
+    /* height: 4em;
+    display:  grid;
+    justify-content: end;
+    align-content: center; */
+    padding-right: 2em;
+
+}   
+
+.fon {
+    background-color: #00111b;
+}
+
+.zagolovok {
+    color:aqua;
+    font-family: "Comfortaa";
+    text-transform: uppercase;
+    font-size: 2.5vw;
+}
+
+.ssulkivshapke {
+    font-size: 3vh;
+    text-decoration: none;
+    margin: 2vh;
+    cursor: pointer;
+    color: #fdfff5;
+    padding: 1vh;
+}
+
+.ssulkivshapke:hover {
+    transition: 200ms;
+    color: #808080;
+    border-top: 0.5vh solid white;
+    border-bottom: 0.5vh solid white;
+}
+
+.razdelui {
+    text-align: center;
+    width: 25em;
+    height: 25em;
+    border: 0.3vh solid gray;
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    box-sizing: border-box;
+}
+
+.razdelui:hover {
+    transition: 250ms;
+    box-shadow: 0px 0px 50px aqua;
+}
+
+.cards {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.ssulki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imginhead {
+    width: 100%;
+}
+
+.ssknrzdl {
+    display: flex;
+    justify-content: start;
+    font-size: 2em;
+    margin-left: 1vh;
+    color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ftr {
+    height: 50vh;
+    background: #000;
+}
+
+.plznsslk {
+    margin-left: 3vh;
+    font-size: 5vh;
+    color: mistyrose;
+    border-bottom:3px solid #000;
+    transition: all ease-in 0.3s;
+}
+
+.zglvkinsslk {
+    margin-left: 2vh;
+    font-size: 250%;
+    color: mistyrose;
+}
+
+.plznsslk:hover {
+    border-bottom:3px solid #fdfff5;
+}
+
+.mgnrzdl {
+    height: 20vw;
+    margin: 1vw;
+}
+
+.nzvnplnt {
+    text-align: center;
+    font-size: 5vh;
+    margin: 5vh;
+    color: #fdfff5;
+}
+
+.imginopisanie {
+    width: 35vw;
+    height: auto;
+    margin: 2vw;
+
+}
+
+.svstv, .opisanie, .voprosu {
+    margin: 5vh;
+    color: rgb(238, 238, 238);
+    font-size: 3vh;
+    line-height: 4vh;
+}
+
+.voprosu {
+    font-size: 4.5vh;
+    margin: 1vw;
+}
+
+.input {
+    font-size: 4.5vh;
+}
+
+.opisanie {
+    text-indent: 5vh;
+}
+
+.svstv {
+    width: 35%;
+    margin-left: 10vh;
+    padding-left: 5vh;
+    padding-top: 5vh;
+    border-top: 0.5vh solid gray;
+}
+
+.otvet {
+    color: #fdfff5;
+    font-size: 300%;
+    padding-left: 25%;
+}
+
+.konteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.proveritbtn {
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content p {
+    position: absolute;
+    color: black; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+i {
+    font-size: 1.3vw !important;
+    color: #fff;
+}
+
+.telefon {
+    font-size: 2vh;
+    color: #00111b;
+}
+
+.icons {
+    margin-left: 0.5em;
+}
+
+.ssulkiinftr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.fraimmenu {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*кнопка переключения*/
+.switch-btn {
+    display: inline-block;
+    width: 56px; /* ширина */
+    height: 29px; /* высота */
+    border-radius: 40px; /* радиус скругления */
+    background: #bfbfbf; /* цвет фона */
+    z-index: 0;
+    margin-top: 0vh;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; /* анимация */
+  }
+.switch-btn::after {
+    content: "";
+    height: 23px; /* высота кнопки */
+    width: 23px; /* ширина кнопки */
+    border-radius: 50px;
+    background: #fff; /* цвет кнопки */
+    top: 3px; /* положение кнопки по вертикали относительно основы */
+    left: 3px; /* положение кнопки по горизонтали относительно основы */
+    transition-duration: 300ms; /* анимация */
+    position: absolute;
+    z-index: 1;
+  }
+.switch-on {
+    background: aqua;
+  }
+.switch-on::after {
+    left: 31px;
+  }
+
+.switch {
+    display: flex;
+    justify-content: end;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.bottommenu {
+    padding-right: 1vw;
+    color:rgb(238, 238, 238);
+    font-size: 4vh;
+}
+
+.text-on {
+    color:aqua;
+}
+
+.show {
+    display: none;
+    width: 0;
+    height: 0;
+    /* size: 0; */
+}
